@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен бота
-BOT_TOKEN = os.getenv('BOT_TOKEN', '8145762372:AAFKVlNjCopg_VYnlAq92d4LDCITYUMQMXY')
+BOT_TOKEN = os.getenv('BOT_TOKEN', 'ВАШ ТОКЕН - YOUR TOKEN')
 
 # Состояния для ConversationHandler
 AMOUNT, FROM_CUR, TO_CUR = range(3)
